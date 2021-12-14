@@ -56,6 +56,13 @@
 </ul>
 </li>
 <li><a href="#frequently-asked-questions-faq">FREQUENTLY ASKED QUESTIONS (FAQ)</a></li>
+<li><a href="#noob-friendly">NOOB FRIENDLY</a>
+<ul>
+<li><a href="#prequisites">Prequisites</a></li>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#extras">Extras</a></li>
+</ul>
+</li>
 <li><a href="#links">LINKS</a></li>
 <li><a href="#latest-changes">LATEST CHANGES</a></li>
 </ul>
@@ -219,24 +226,41 @@ Always provide as much information as possible.</p>
 </blockquote>
 <p><code>/dev/.vr25/djs/djsd.log</code></p>
 <hr>
+<h2 id="noob-friendly">NOOB FRIENDLY</h2>
+<h3 id="prequisites">Prequisites</h3>
+<ul>
+<li>Magisk Rooted</li>
+<li>Root File Explorer &amp; Text Editor</li>
+<li>Your Script to be executed</li>
+<li>Confidence</li>
+</ul>
+<h3 id="steps">Steps</h3>
+<ol>
+<li>Open the config.txt file at /data/adb/vr25/djs-data/</li>
+<li>Move to end of the text and create a new line</li>
+<li>Start with writing &quot;boot&quot; (without the quotations) if you want the script to executed on boot.</li>
+<li>Or Start with writing the time at which you want the script to run in HH:MM format. Ex. &quot;21:30&quot;.</li>
+<li>Now continue in the same line with a space and paste your script. You're done.</li>
+</ol>
+<h3 id="extras">Extras</h3>
+<ol start="6">
+<li>It is possible to Add &quot;; : --delete&quot; to the script if you want the script to run only for first boot.</li>
+<li>In case of time based command you can Add &quot;; : --boot&quot; to the script if you want the script to run also at boot.</li>
+</ol>
+<hr>
 <h2 id="links">LINKS</h2>
 <ul>
-<li><a href="https://app.airtm.com/send-or-request/send">Airtm, username: ivandro863auzqg</a></li>
-<li><a href="https://facebook.com/VR25-at-xda-developers-258150974794782/">Facebook page</a></li>
-<li><a href="https://github.com/VR-25/djs/">Git repository</a></li>
-<li><a href="https://liberapay.com/VR25/">Liberapay</a></li>
-<li><a href="https://patreon.com/vr25/">Patreon</a></li>
-<li><a href="https://paypal.me/vr25xda/">PayPal</a></li>
-<li><a href="https://t.me/vr25_xda/">Telegram channel</a></li>
-<li><a href="https://t.me/vr25xda/">Telegram profile</a></li>
+<li><a href="https://app.airtm.com/send-or-request/send">Donate - Airtm, username: ivandro863auzqg</a></li>
+<li><a href="https://liberapay.com/vr25">Donate - Liberapay</a></li>
+<li><a href="https://patreon.com/vr25">Donate - Patreon</a></li>
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=iprj25@gmail.com&amp;lc=US&amp;item_name=VR25+is+creating+free+and+open+source+software.+Donate+to+suppport+their+work.&amp;no_note=0&amp;cn=&amp;currency_code=USD&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">Donate - PayPal or Credit/Debit Card</a></li>
+<li><a href="https://fb.me/vr25xda">Facebook Page</a></li>
+<li><a href="https://t.me/vr25_xda">Telegram Channel</a></li>
+<li><a href="https://t.me/vr25xda">Telegram Profile</a></li>
+<li><a href="https://github.com/VR-25/djs">Upstream Repository</a></li>
 </ul>
 <hr>
 <h2 id="latest-changes">LATEST CHANGES</h2>
-<p><strong>v2021.9.3 (202109030)</strong></p>
-<ul>
-<li>Fixed &quot;boot schedules not working&quot; (thanks, @rhayy)</li>
-<li>Updated config examples</li>
-</ul>
 <p><strong>v2021.10.30 (202110300)</strong></p>
 <ul>
 <li>General fixes &amp; optimizations</li>
@@ -245,6 +269,12 @@ Always provide as much information as possible.</p>
 <ul>
 <li>Fixed installation issues</li>
 <li>Improved support for the current Magisk canary.</li>
+</ul>
+<p><strong>v2021.12.14 (202112140)</strong></p>
+<ul>
+<li>&quot;Noob friendly&quot; section by @n-ce;</li>
+<li>Updated build script;</li>
+<li>Updated links in the README.</li>
 </ul>
 
     </body>

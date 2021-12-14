@@ -15,7 +15,10 @@
   - [Basics](#basics)
   - [Initializing DJS](#initializing-djs)
 - [FREQUENTLY ASKED QUESTIONS (FAQ)](#frequently-asked-questions-faq)
-- [NOOB-FRIENDLY](#noob-friendly)
+- [NOOB FRIENDLY](#noob-friendly)
+  - [Prequisites](#prequisites)
+  - [Steps](#steps)
+  - [Extras](#extras)
 - [LINKS](#links)
 - [LATEST CHANGES](#latest-changes)
 
@@ -246,25 +249,22 @@ Always provide as much information as possible.
 6. It is possible to Add "; : --delete" to the script if you want the script to run only for first boot.
 7. In case of time based command you can Add "; : --boot" to the script if you want the script to run also at boot.
 
+
 ---
 ## LINKS
 
-- [Airtm, username: ivandro863auzqg](https://app.airtm.com/send-or-request/send)
-- [Facebook page](https://facebook.com/VR25-at-xda-developers-258150974794782/)
-- [Git repository](https://github.com/VR-25/djs/)
-- [Liberapay](https://liberapay.com/VR25/)
-- [Patreon](https://patreon.com/vr25/)
-- [PayPal](https://paypal.me/vr25xda/)
-- [Telegram channel](https://t.me/vr25_xda/)
-- [Telegram profile](https://t.me/vr25xda/)
+- [Donate - Airtm, username: ivandro863auzqg](https://app.airtm.com/send-or-request/send)
+- [Donate - Liberapay](https://liberapay.com/vr25)
+- [Donate - Patreon](https://patreon.com/vr25)
+- [Donate - PayPal or Credit/Debit Card](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=iprj25@gmail.com&lc=US&item_name=VR25+is+creating+free+and+open+source+software.+Donate+to+suppport+their+work.&no_note=0&cn=&currency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
+- [Facebook Page](https://fb.me/vr25xda)
+- [Telegram Channel](https://t.me/vr25_xda)
+- [Telegram Profile](https://t.me/vr25xda)
+- [Upstream Repository](https://github.com/VR-25/djs)
 
 
 ---
 ## LATEST CHANGES
-
-**v2021.9.3 (202109030)**
-- Fixed "boot schedules not working" (thanks, @rhayy)
-- Updated config examples
 
 **v2021.10.30 (202110300)**
 - General fixes & optimizations
@@ -272,3 +272,8 @@ Always provide as much information as possible.
 **v2021.11.3 (202111030)**
 - Fixed installation issues
 - Improved support for the current Magisk canary.
+
+**v2021.12.14 (202112140)**
+- "Noob friendly" section by @n-ce;
+- Updated build script;
+- Updated links in the README.
